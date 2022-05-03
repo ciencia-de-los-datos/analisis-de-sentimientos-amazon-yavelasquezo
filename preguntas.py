@@ -142,7 +142,7 @@ def pregunta_04():
         estimator=pipeline,
         param_grid=param_grid,
         cv=5,
-        scoring="accuary",
+        scoring="accurary",
         refit=True,
         return_train_score=True,
     )
